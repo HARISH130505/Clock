@@ -15,7 +15,7 @@ const Clock = () => {
 
     // Analog Clock Setup
     let options = {
-        width: "550px",
+        width: "450px",
         border: false,
         baseColor: "#dbe9f4",
         centerColor: "",
@@ -29,7 +29,7 @@ const Clock = () => {
         <div className='bg-gray-900 flex flex-col max-w-screen min-h-screen overflow-hidden'>
             <Navbar name="Clock" />
             <div className="flex w-full justify-center items-center flex-col flex-1">
-                <h1 className='text-[#FFFFFF] text-5xl'>Digilog</h1>
+                <h1 className='text-[#FFFFFF] text-5xl pt-6 '>Digilog</h1>
                 {/* Rendering Analog Clock */}
                 <div className='flex items-center justify-center flex-col-reverse'>
                     <AnalogClock {...options}/>
